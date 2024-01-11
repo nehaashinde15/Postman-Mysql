@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "dotenv": "^16.3.1",
+    "env": "^0.0.2",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.5",
+    "node-input-validator": "^4.5.1"
+  },
+  "name": "postman-mysql",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --max-old-space-size=16000 app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
